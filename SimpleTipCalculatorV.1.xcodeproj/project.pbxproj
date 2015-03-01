@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0EBB5C1A9A903A00ADB9DC /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0EBB5B1A9A903A00ADB9DC /* Calculator.swift */; };
+		AD15D2E71A8DBCDC005FDDF4 /* UITextField+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15D2E61A8DBCDC005FDDF4 /* UITextField+Conversion.swift */; };
 		ADF29A6C1A8C471A002DC94E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF29A6B1A8C471A002DC94E /* AppDelegate.swift */; };
 		ADF29A6E1A8C471A002DC94E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF29A6D1A8C471A002DC94E /* ViewController.swift */; };
 		ADF29A711A8C471A002DC94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF29A6F1A8C471A002DC94E /* Main.storyboard */; };
 		ADF29A731A8C471A002DC94E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF29A721A8C471A002DC94E /* Images.xcassets */; };
 		ADF29A761A8C471A002DC94E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF29A741A8C471A002DC94E /* LaunchScreen.xib */; };
 		ADF29A821A8C471B002DC94E /* SimpleTipCalculatorV_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF29A811A8C471B002DC94E /* SimpleTipCalculatorV_1Tests.swift */; };
+		ADF780461A9AAC1900B84788 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0EBB5B1A9A903A00ADB9DC /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD0EBB5B1A9A903A00ADB9DC /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		AD15D2E61A8DBCDC005FDDF4 /* UITextField+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Conversion.swift"; sourceTree = "<group>"; };
 		ADF29A661A8C471A002DC94E /* SimpleTipCalculatorV.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTipCalculatorV.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF29A6A1A8C471A002DC94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADF29A6B1A8C471A002DC94E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +84,8 @@
 			children = (
 				ADF29A6B1A8C471A002DC94E /* AppDelegate.swift */,
 				ADF29A6D1A8C471A002DC94E /* ViewController.swift */,
+				AD15D2E61A8DBCDC005FDDF4 /* UITextField+Conversion.swift */,
+				AD0EBB5B1A9A903A00ADB9DC /* Calculator.swift */,
 				ADF29A6F1A8C471A002DC94E /* Main.storyboard */,
 				ADF29A721A8C471A002DC94E /* Images.xcassets */,
 				ADF29A741A8C471A002DC94E /* LaunchScreen.xib */,
@@ -213,7 +220,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF29A6E1A8C471A002DC94E /* ViewController.swift in Sources */,
+				AD0EBB5C1A9A903A00ADB9DC /* Calculator.swift in Sources */,
 				ADF29A6C1A8C471A002DC94E /* AppDelegate.swift in Sources */,
+				AD15D2E71A8DBCDC005FDDF4 /* UITextField+Conversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF780461A9AAC1900B84788 /* Calculator.swift in Sources */,
 				ADF29A821A8C471B002DC94E /* SimpleTipCalculatorV_1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +415,7 @@
 				ADF29A871A8C471B002DC94E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADF29A881A8C471B002DC94E /* Build configuration list for PBXNativeTarget "SimpleTipCalculatorV.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				ADF29A8A1A8C471B002DC94E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
